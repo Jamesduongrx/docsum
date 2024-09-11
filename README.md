@@ -1,12 +1,14 @@
 # docsum![](https://github.com/Jamesduongrx/docsum/actions/workflows/test.yml/badge.svg)
-Docsum.py is a script that reads a text file and uses Groq API to generate a summary for the user. 
+Docsum.py is a script that reads a text file and uses Groq API to generate a summary for the user. While reading, the script splits the chunks to help the language model better read the file.
 
 # Getting Started
 Install Groq, and generate a free Groq API key,https://console.groq.com/keys. Create an .env file through the terminal and add the generated key:
 ```
 GROQ_API_KEY=your_api_key_here
 ```
-The following example summarizes the declaration of independence.
+
+
+Run the following code below to generate the summary. The following example summarizes the declaration of independence.
 
 ```
 $ python3 docsum.py docs/declaration.txt
