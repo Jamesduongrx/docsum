@@ -1,5 +1,4 @@
-# docsum ![](https://github.com/mikeizbicki/docsum/workflows/tests/badge.svg)
-
+# docsum ![](https://github.com/Jamesduongrx/docsum/actions/workflows/tests.yml/badge.svg)
 Use an LLM to summarize a document on the command line.
 
 The following example summarizes the declaration of independence.
